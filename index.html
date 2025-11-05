@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AFK Fish It Shop — Joki AFK Fish It</title>
+  <meta name="description" content="Jasa joki AFK Fish It cepat, aman, dan terpercaya. Pilih durasi & paket, bayar mudah via Dana/Ovo/BCA.">
+  <!-- SEO & OG -->
+  <meta property="og:title" content="AFK Fish It Shop — Joki AFK Fish It">
+  <meta property="og:description" content="Jasa joki AFK Fish It cepat, aman, dan terpercaya.">
+  <meta property="og:image" content="assets/images/og.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script defer src="https://unpkg.com/feather-icons"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">AFK Fish It Shop</a>
+      <nav aria-label="Utama">
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#packages">Packages</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button id="themeToggle" class="icon-btn" aria-label="Ganti tema"><i data-feather="sun"></i><i data-feather="moon"></i></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1>Joki AFK Fish It</h1>
+      <p class="subtitle">Cepat, aman, dan profesional — tinggal santai, biar kami yang pancing!</p>
+      <ul class="highlight">
+        <li><i data-feather="zap"></i> Eksekusi cepat</li>
+        <li><i data-feather="shield"></i> 100% Aman</li>
+        <li><i data-feather="clock"></i> Online 24 Jam</li>
+      </ul>
+      <a href="#packages" class="btn btn-primary">Lihat Paket</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="packages" class="section reveal">
+      <div class="container">
+        <h2>Pilih Paket</h2>
+        <div class="duration-control">
+          <label for="duration">Durasi :</label>
+          <select id="duration">
+            <option value="1">1 Hari</option>
+            <option value="3">3 Hari</option>
+            <option value="7" selected>7 Hari</option>
+            <option value="14">14 Hari</option>
+            <option value="30">30 Hari</option>
+          </select>
+        </div>
+
+        <div class="grid cards">
+          <article class="card" data-name="Basic">
+            <h3>Basic</h3>
+            <p>Auto-pancing standar + laporan harian.</p>
+            <div class="price" data-price>Rp –</div>
+            <form class="order-form">
+              <label>Qty <input type="number" name="qty" value="1" min="1"></label>
+              <label>Username/IGN <input type="text" name="ign" required></label>
+              <label>Server/Platform <input type="text" name="server"></label>
+              <label>Catatan <textarea name="note" rows="2"></textarea></label>
+              <label>Pembayaran
+                <select name="pay">
+                  <option value="Dana">Dana</option>
+                  <option value="Ovo">Ovo</option>
+                  <option value="QRIS">QRIS</option>
+                  <option value="BCA">BCA</option>
+                </select>
+              </label>
+              <button type="button" class="btn btn-buy">Buy</button>
+            </form>
+          </article>
+
+          <article class="card" data-name="Pro">
+            <h3>Pro</h3>
+            <p>Auto-pancing + Anti DC + Bonus report video.</p>
+            <div class="price" data-price>Rp –</div>
+            <form class="order-form">
+              <label>Qty <input type="number" name="qty" value="1" min="1"></label>
+              <label>Username/IGN <input type="text" name="ign" required></label>
+              <label>Server/Platform <input type="text" name="server"></label>
+              <label>Catatan <textarea name="note" rows="2"></textarea></label>
+              <label>Pembayaran
+                <select name="pay">
+                  <option value="Dana">Dana</option>
+                  <option value="Ovo">Ovo</option>
+                  <option value="QRIS">QRIS</option>
+                  <option value="BCA">BCA</option>
+                </select>
+              </label>
+              <button type="button" class="btn btn-buy">Buy</button>
+            </form>
+          </article>
+
+          <article class="card" data-name="Elite">
+            <h3>Elite</h3>
+            <p>Full Support 24 jam + Premium server slot.</p>
+            <div class="price" data-price>Rp –</div>
+            <form class="order-form">
+              <label>Qty <input type="number" name="qty" value="1" min="1"></label>
+              <label>Username/IGN <input type="text" name="ign" required></label>
+              <label>Server/Platform <input type="text" name="server"></label>
+              <label>Catatan <textarea name="note" rows="2"></textarea></label>
+              <label>Pembayaran
+                <select name="pay">
+                  <option value="Dana">Dana</option>
+                  <option value="Ovo">Ovo</option>
+                  <option value="QRIS">QRIS</option>
+                  <option value="BCA">BCA</option>
+                </select>
+              </label>
+              <button type="button" class="btn btn-buy">Buy</button>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section reveal">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details><summary>Apa akun saya aman?</summary><p>100% aman, kami hanya login saat proses joki dan tidak ubah data apa pun.</p></details>
+        <details><summary>Kapan joki dimulai?</summary><p>Segera setelah pembayaran dikonfirmasi (maks 30 menit).</p></details>
+        <details><summary>Apakah saya dapat laporan?</summary><p>Ya, laporan harian dikirim via WhatsApp.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container">
+        <h2>Hubungi Kami</h2>
+        <p>Chat admin untuk konsultasi atau custom order.</p>
+        <a href="#" id="chatAdmin" class="btn btn-primary"><i data-feather="message-circle"></i> Chat Admin</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 AFK Fish It Shop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>
